@@ -8,7 +8,7 @@ int main() {
     // confrontations
     // ==  !=  >  <  >=  <=
     // logic
-    // &&  ||  ! ;;
+    // &&  ||  !
     int x;
     cout << "Inserisci un numero! ";
     cin >> x;
