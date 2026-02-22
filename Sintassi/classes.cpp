@@ -2,10 +2,18 @@
 
 using namespace std;
 
+class Person {
+    public: 
+        string name; // object set-up
+        int age;
+};
+
 int main() {
-    class Person {
-        public: 
-            string name;
-            int age;
-    };
+    Person a; // object creation
+
+    a.name = "Emilian";
+    a.age = 29;
+
+    cout << "Name: " << a.name << endl;
+    cout << "Age: " << a.age << endl;
 }

@@ -20,3 +20,14 @@ functions.cpp: In function ‘int main()’:
 functions.cpp:11:1: error: expected ‘,’ or ‘;’ before ‘}’ token
    11 | }
       | ^
+
+classes.cpp:9:2: error: expected ‘;’ after class definition
+    9 | }
+      |  ^
+      |  ;
+classes.cpp: In function ‘int main()’:
+classes.cpp:15:13: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+   15 |     a.age = "29";
+      |             ^~~~
+      |             |
+      |             const char*
