@@ -9,12 +9,26 @@ int main() {
     // ==  !=  >  <  >=  <=
     // logic
     // &&  ||  !
+    
     int x;
-    cout << "Inserisci un numero! ";
+    cout << "Insert a number! ";
     cin >> x;
+    
     if ( x > 0 ) {
-        cout << "Positivo!";
+        cout << "Positive!";
     } else {
-        cout << "Non positivo!";
+        cout << "No positive!";
+    }
+
+    int y;
+    cout << "Insert a number for the switch: ( if you will select 1 it will print One )";
+    cin >> y;
+
+    switch ( y ) {
+        case 1:
+            cout << "One";
+            break;
+        default:
+            cout << "Else!";
     }
 }
