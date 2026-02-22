@@ -15,3 +15,8 @@ operators.cpp:24:89: error: expected ‘;’ before ‘cin’
       |                                                                                         ;
    25 |     cin << y;
       |     ~~~          
+
+functions.cpp: In function ‘int main()’:
+functions.cpp:11:1: error: expected ‘,’ or ‘;’ before ‘}’ token
+   11 | }
+      | ^
